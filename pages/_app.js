@@ -1,8 +1,8 @@
 import localFont from 'next/font/local';
 
-import '../styles/global.css';
+import '../styles/global.scss';
 
-const myFont = localFont({
+const gotham = localFont({
   src: [
     {
       path: '../public/fonts/Gotham-Book.woff2',
@@ -34,7 +34,7 @@ const myFont = localFont({
  
 export default function App({ Component, pageProps }) {
   return (
-       <main className={myFont.className}>
+       <main className={gotham.className}>
       <Component {...pageProps} />
     </main>
   );

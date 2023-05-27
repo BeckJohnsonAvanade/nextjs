@@ -1,0 +1,33 @@
+@import '../styles/variables.scss';
+
+/*footer {
+    background: blue;
+    selector "footer" is not pure (pure selectors must contain at least one local class or id)
+}*/
+
+.footer {
+    contain: content;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: $sm-padding;
+
+    ul {
+        padding: 0;
+
+        li {
+            list-style: none;
+        }
+    }
+}
+
+// TODO describe sections
+.row {
+    /*display: flex;
+    justify-content: space-between;
+    gap: $sm-padding;*/
+}
+
+.social {
+    display: flex;
+    gap: $sm-padding;
+}

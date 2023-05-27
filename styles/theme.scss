@@ -1,0 +1,22 @@
+@import './variables.scss';
+
+:root {
+    --button-text-color: white;
+
+    // Primary colors
+    --primary-color: #{$maroon};
+    --primary-color-hover: #{$red};
+    --primary-color-active: #{$red2};
+
+    // Secondary colors
+    --secondary-color: #{$lake};
+    --secondary-color-hover: #{$blue};
+    --secondary-color-active: #{$lightLake};
+
+    // Disabled colors
+    --disabled-color: #{$lightGreystone};
+    --disabled-text-color: #{$grey};
+    --disabled-link-color: #{$darkGreystone};
+
+    --filter-hover-bg-color: #{$lightRed};
+}

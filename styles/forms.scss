@@ -1,0 +1,26 @@
+.form-control {
+    border: 1px solid $greystone;
+    border-radius: $border-radius;
+    padding: $md-padding/2 $md-padding;
+
+    &:hover {
+        border-color: $darkGreystone;
+    }
+
+    &:focus-within {
+        outline: $blue auto 2px;
+    }
+
+    &:disabled {
+        background: $lightGreystone;
+        border-color: $lightGreystone;
+    }
+
+    &:invalid {
+        outline: $red auto 2px;
+    }
+}
+
+::placeholder {
+    color: $darkGreystone;
+}
