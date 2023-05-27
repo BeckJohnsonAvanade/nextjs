@@ -22,7 +22,7 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p>HEllo world</p>
 
-        <div class="3-col">
+       
        <a className="btn-primary btn-sm">Button</a>
               <button className="btn-primary">Button</button>
 
@@ -30,7 +30,7 @@ export default function Home({ allPostsData }) {
           <a className="btn-filter">Filter button</a>
           <a className="btn-secondary disabled">Button</a>
               <button className="btn-secondary btn-lg" disabled>Button</button>
-          </div>
+         
     
       </section>
 
